@@ -9,8 +9,8 @@
   border-radius: 0.1875rem;
   padding: 11px 22px;
   cursor: pointer;
-  background-color: rgb(21, 70, 95);
-  color: #FFFFFF;
+  background-color: #ffffff;
+  color:  #121212;
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .btn:active:focus, .btn:active:hover, .btn.active:focus, .btn.active:hover,
@@ -31,7 +31,7 @@
 .navbar .navbar-nav > a.btn.dropdown-toggle:focus,
 .show >
 .navbar .navbar-nav > a.btn.dropdown-toggle:hover {
-  background-color: rgb(19, 106, 150);
+  background-color: #5f1a1e;
   color: #FFFFFF;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -201,23 +201,23 @@ fieldset[disabled]
 }
 
 .btn-primary {
-  background-color: rgb(21, 70, 95);
-  color: #FFFFFF;
+  background-color: #ffffff;
+  color: #121212;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.active:focus, .btn-primary.active:hover,
 .show > .btn-primary.dropdown-toggle,
 .show > .btn-primary.dropdown-toggle:focus,
 .show > .btn-primary.dropdown-toggle:hover {
-  background-color: rgb(19, 106, 150);
-  color: #FFFFFF;
+  background-color: rgb(221, 221, 221);
+  color: #121212;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
 .btn-primary:hover {
-  -webkit-box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
-          box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
+  -webkit-box-shadow: 0 3px 8px 0 rgba(252, 0, 0, 0.17);
+          box-shadow: 0 3px 8px 0 rgba(136, 24, 24, 0.17);
 }
 
 .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary:disabled, .btn-primary:disabled:hover, .btn-primary:disabled:focus, .btn-primary:disabled.focus, .btn-primary:disabled:active, .btn-primary:disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active,
@@ -719,7 +719,7 @@ fieldset[disabled]
   background-color: transparent;
   border: 1px solid #E3E3E3;
   border-radius: 30px;
-  color: #2c2c2c;
+  color: #f3f3f3;
   line-height: normal;
   font-size: 0.8571em;
   -webkit-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
@@ -737,7 +737,7 @@ fieldset[disabled]
   -webkit-box-shadow: none;
   box-shadow: none;
   outline: 0 !important;
-  color: #2c2c2c;
+  color: #e6e6e6;
 }
 
 .form-control:focus + .input-group-addon,
@@ -1463,6 +1463,7 @@ p {
 
 body {
   color: #2c2c2c;
+  background: #c7c7c7;
   font-size: 14px;
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
@@ -1875,7 +1876,7 @@ body {
 }
 
 .bg-primary {
-  background-color: #00334D !important;
+  background-color: #121212 !important;
 }
 
 .bg-info {
@@ -3235,7 +3236,7 @@ img {
 .section {
   padding: 70px 0;
   position: relative;
-  background: #FFFFFF;
+  background: #c7c7c7;
 }
 
 .section .row + .category {
@@ -3393,13 +3394,13 @@ img {
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
   .sidebar-collapse .navbar-collapse:before {
-    background: #378C3F;
+    background: #b12e2a;
     /* For browsers that do not support gradients */
     /* For Safari 5.1 to 6.0 */
     /* For Opera 11.1 to 12.0 */
     /* For Firefox 3.6 to 15 */
-    background: -webkit-gradient(linear, left top, left bottom, from(#378C3F), color-stop(80%, #000));
-    background: linear-gradient(#378C3F 0%, #000 80%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#b12e2a), color-stop(80%, #000));
+    background: linear-gradient(#b12e2a 0%, #000 80%);
     /* Standard syntax (must be last) */
     opacity: 0.76;
     filter: alpha(opacity=76);
@@ -4784,7 +4785,7 @@ img {
 }
 
 .gallery figure.cc-effect:hover figcaption:before {
-  background: rgba(27, 23, 23, 0.5);
+  background: rgba(94, 2, 2, 0.5);
 }
 
 .gallery figure.cc-effect:hover .h4,
@@ -4866,7 +4867,7 @@ img {
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgba(55, 140, 63, 0.6);
+  border: 15px solid rgba(140, 134, 55, 0.6);
   border-radius: 50%;
   height: 180px;
   width: 180px;
